@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.tayssir.kafkademo.producer.KafkaProducer;
+import org.tayssir.kafkademo.messaging.producer.KafkaProducer;
 
 @RestController
 @RequestMapping("/api/tsts/messages")

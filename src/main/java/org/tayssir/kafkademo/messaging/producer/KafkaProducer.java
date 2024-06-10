@@ -1,4 +1,4 @@
-package org.tayssir.kafkademo.producer;
+package org.tayssir.kafkademo.messaging.producer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
