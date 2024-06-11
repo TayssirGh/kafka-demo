@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class KafkaProducer {
     private final KafkaTemplate<String,String> kafkaTemplate;
+
     public void publishMessage(String msg){
         log.info(String.format("sending message to testes:: %s", msg));
         kafkaTemplate.send("testes", msg);
